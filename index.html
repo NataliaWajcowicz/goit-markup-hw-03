@@ -23,62 +23,66 @@
         </nav>
         <div>
             <ul class="contact">
-                <li><a class="contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contact-tel" href="tel:+48111111111">+48 111 111 111</a></li>
+                <li class="contact-item"><a class="contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contact-item"><a class="contact-tel" href="tel:+48111111111">+48 111 111 111</a></li>
             </ul>
         </div>
     </header>
-    <main>
+    <main class="container">
         <section class="header">
             <h1 class="title">
                 EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button type="button">Zamów usługę</button>
+            <button class="header-button" type="button">Zamów usługę</button>
         </section>
-        <section>
+        <section class="'features section">
             <ul class="feature-list">
-                <li>
+                <li class="feature-item">
                     <p class="feature-name">LOREM IPSUM</p>
-                    <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.Modi quam nisi assumenda, molestias in labore magnam
-                        nulla a
-                        harum?
+                    <p class="feature-description">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Nam vel acru sem. Sed
+                    non sodales dui. Interdum et malesuada
                     </p>
                 </li>
-                <li>
+                <li class="feature-item">
                     <p class="feature-name">LOREM IPSUM</p>
-                    <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.Modi quam nisi assumenda, molestias in labore magnam
-                        nulla a
-                        harum?
+                    <p class="feature-description">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Nam vel acru sem. Sed
+                    non sodales dui. Interdum et malesuada
                     </p>
                 </li>
-                <li>
+                <li class="feature-item">
                     <p class="feature-name">LOREM IPSUM</p>
-                    <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.Modi quam nisi assumenda, molestias in labore magnam
-                        nulla a
-                        harum?
+                    <p class="feature-description">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Nam vel acru sem. Sed
+                    non sodales dui. Interdum et malesuada
                     </p>
                 </li>
-                <li>
+                <li class="feature-item">
                     <p class="feature-name">LOREM IPSUM</p>
-                    <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.Modi quam nisi assumenda, molestias in labore magnam
-                        nulla a
-                        harum?
+                    <p class="feature-description">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Nam vel acru sem. Sed
+                    non sodales dui. Interdum et malesuada
                     </p>
                 </li>
             </ul>
         </section>
-        <section class="services">
+        <section class="services section">
             <h2 class="services-title">Czym się zajmujemy</h2>
-            <ul>
-                <li><img src="images/image1.jpg" alt="człowiek piszący na klawiaturze" width="370" height="294"></li>
-                <li><img src="images/image2.jpg" alt="człowiek używający telefonu" width="370" height="294"></li>
-                <li><img src="images/image3.jpg" alt="tablet z paletą kolorów" width="370" height="294"></li>
+            <ul class="services-list">
+                <li class="services-item"><img src="images/image1.jpg" alt="człowiek piszący na klawiaturze" width="370" height="294"></li>
+                <li class="services-item"><img src="images/image2.jpg" alt="człowiek używający telefonu" width="370" height="294"></li>
+                <li class="services-item"><img src="images/image3.jpg" alt="tablet z paletą kolorów" width="370" height="294"></li>
             </ul>
         </section>
-        <section class="team">
+        <section class="team section">
             <h2 class="team-title">Nasz zespół</h2>
             <ul class="team-photos">
-                <li>
-                    <figure>
+                <li class="team-photos-item">
+                    <figure class="team-card">
                         <img class="team-photo" src="images/image4.jpg" alt="John Doe" width="270" height="260">
                         <figcaption>
                             <p class="team-name">John Doe</p>
@@ -86,8 +90,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="team-photos-item">
+                    <figure class="team-card">
                         <img class="team-photo" src="images/image5.jpg" alt="John Doe" width="270" height="260">
                         <figcaption>
                             <p class="team-name">John Doe</p>
@@ -95,8 +99,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="team-photos-item">
+                    <figure class="team-card">
                         <img class="team-photo" src="images/image6.jpg" alt="John Doe" width="270" height="260">
                         <figcaption>
                             <p class="team-name">John Doe</p>
@@ -104,8 +108,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="team-photos-item">
+                    <figure class="team-card">
                         <img class="team-photo" src="images/image7.jpg" alt="John Doe" width="270" height="260">
                         <figcaption>
                             <p class="team-name">John Doe</p>
@@ -118,13 +122,19 @@
     </main>
     <footer>
         <a class="logo" href="index.html"><span class="logo-accent">Web</span>Studio</a>
-        <address>
-            m. Warszawa, Aleje Jerozolimskie 21
-        </address> 
-        <address>
-            <a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="address-tel" href="tel:+48111111111">+48 111 111 111</a>
-        </address> 
+        <ul class="address">
+            <li class="address-item">
+                <address>
+                m. Warszawa, Aleje Jerozolimskie 21
+                </address>
+            </li>
+            <li class="address-item">
+                <a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-item">
+                <a class="address-tel" href="tel:+48111111111">+48 111 111 111</a>
+            </li> 
+        </ul>
     </footer>
 </body>
 </html>
