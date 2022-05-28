@@ -29,20 +29,18 @@
             </ul>
         </div>
     </header>
-    <main>
-        <section>
-            <ul>
-                <li><button class="button" type="button">Wszystkie</button></li>
-                <li><button class="button" type="button">Strony</button></li>
-                <li><button class="button" type="button">Aplikacje</button></li>
-                <li><button class="button" type="button">Dizajn</button></li>
-                <li><button class="button" type="button">Marketing</button></li>
+    <main class="container">
+        <section class="project section">
+            <ul class="filters">
+                <li class="filters-item"><button class="button" type="button">Wszystkie</button></li>
+                <li class="filters-item"><button class="button" type="button">Strony</button></li>
+                <li class="filters-item"><button class="button" type="button">Aplikacje</button></li>
+                <li class="filters-item"><button class="button" type="button">Dizajn</button></li>
+                <li class="filters-item"><button class="button" type="button">Marketing</button></li>
             </ul>
-        </section>
-        <section class="project">
-            <ul>
-                <li>
-                    <figure>
+            <ul class="project-list">
+                <li class="project-item">
+                    <figure class="project-card">
                         <img src="images/project1.jpg" alt="notebook with 3 pictures of people on screen" width="370" height="294">
                         <figcaption>
                             <p class="project-name">Technocrack</p>
@@ -50,8 +48,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="project-item">
+                    <figure class="project-card">
                         <img src="images/project2.jpg" alt="Two men playing basketball" width="370" height="294">
                         <figcaption>
                             <p class="project-name">Grafika New Orlean vs Golden Star</p>
@@ -59,8 +57,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="project-item">
+                    <figure class="project-card">
                         <img src="images/project3.jpg" alt="logo with fish on the background" width="370" height="294">
                         <figcaption>
                             <p class="project-name">Restauracja Seafood</p>
@@ -68,8 +66,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="project-item">
+                    <figure class="project-card">
                         <img src="images/project4.jpg" alt="headphones" width="370" height="294">
                         <figcaption>
                             <p class="project-name">Projekt Prime</p>
@@ -77,8 +75,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="project-item">
+                    <figure class="project-card">
                         <img src="images/project5.jpg" alt="two boxes" width="370" height="294">
                         <figcaption>
                             <p class="project-name">Projekt Boxes</p>
@@ -86,8 +84,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="project-item">
+                    <figure class="project-card">
                         <img src="images/project6.jpg" alt="monitor with black screen and some white text" width="370" height="294">
                         <figcaption>
                             <p class="project-name">Inspiration has no Borders</p>
@@ -95,8 +93,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="project-item">
+                    <figure class="project-card">
                         <img src="images/project7.jpg" alt="open magazine" width="370" height="294">
                         <figcaption>
                             <p class="project-name">Magazyn Limited Edition</p>
@@ -104,8 +102,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="project-item">
+                    <figure class="project-card">
                         <img src="images/project8.jpg" alt="white label tag with black text" width="370" height="294">
                         <figcaption>
                             <p class="project-name">Projekt LAB</p>
@@ -113,8 +111,8 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
-                    <figure>
+                <li class="project-item">
+                    <figure class="project-card">
                         <img src="images/project9.jpg" alt="someone writing on notebook" width="370" height="294">
                         <figcaption>
                             <p class="project-name">Growing Business</p>
@@ -127,13 +125,19 @@
     </main>
     <footer>
         <a class="logo" href="index.html"><span class="logo-accent">Web</span>Studio</a>
-        <address>
-            m. Warszawa, Aleje Jerozolimskie 21
-        </address>
-        <address>
-            <a class="adress-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="address-tel" href="tel:+48111111111">+48 111 111 111</a>
-        </address>
+        <ul class="address">
+            <li class="address-item">
+                <address>
+                    m. Warszawa, Aleje Jerozolimskie 21
+                </address>
+            </li>
+            <li class="address-item">
+                <a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-item">
+                <a class="address-tel" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
+        </ul>
     </footer>
 </body>
 </html>
