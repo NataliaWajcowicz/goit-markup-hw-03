@@ -394,8 +394,9 @@ footer>.logo{
 }
 
 .project-item{
-    padding-top:34px;
     flex-basis:calc(100%/3-30px);
+    margin-top:34px;
+    margin-left:0px;
 }
 
 .project-card{
@@ -405,19 +406,14 @@ footer>.logo{
     max-width:370px;
 }
 
-.project-card:nth-child(3n+1){
-    margin-left:0;
-    margin-right:30px;
+.project-card:nth-child(3n+1),
+.project-card:nth-child(3n+2),
+.project-card:not(:nth-child(3n)) {
+    margin-left: 0;
+    margin-right: 0px;
+    padding-right:30px;
 }
 
-.project-card:nth-child(3n+2){
-    margin-right:30px;
-}
-
-.project-card:nth-child(3n){
-    margin-left:15px;
-    margin-right:0;
-}
 .project-name{
     font-weight:700;
     font-size:18px;
