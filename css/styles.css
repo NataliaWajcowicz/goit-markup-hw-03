@@ -40,6 +40,16 @@ ul{
     padding:0;
 }
 
+h2{
+    margin:0;
+    padding:0;
+}
+
+figure{
+    margin:0;
+    padding:0;
+}
+
 .menu-section{
     border-bottom: 1px solid #ECECEC;
 }
@@ -51,37 +61,42 @@ ul{
     letter-spacing:0.02em;
     display:flex;
     align-items:center;
-    justify-content:space-between;
     padding-top:24px;
     padding-bottom:24px;
+    justify-content:flex-start;
 }
 
+nav{
+    margin-right:371px;
+}
 .menu{
     display:flex;
-    flex-basis:254px;
+    max-width:254px;
     align-items:center;
-    justify-content:space-between;
-    margin-right:371px;
     margin-left:0px;
 }
 
 .menu-link{
-    margin-right:0px;
     margin-left:0px;
-    padding-right:43px;
+    padding-right:46px;
 }
 
-.menu-item:not(:last-child){
-    margin-right:43px;
+.menu:not(:last-child){
+    margin-right:46px;
 }
 .menu:first-child{
     padding-left:0px;
 }
 
 .menu:last-child{
-    margin-right:0px;
     padding-right:0px;
+    margin-right:0px;
 }
+
+.menu-link{
+    flex-basis:51px;
+}
+
 
 .logo{
     font-family:'Raleway';
@@ -92,6 +107,7 @@ ul{
     text-align:center;
     margin-left:0px;
     padding-left:0px;
+    padding-right:0px;
     margin-right:93px;
     flex-basis:145px;
 }
@@ -107,22 +123,18 @@ ul{
 
 .contact{
     display:flex;
+    flex-wrap:nowrap;
     margin-right:0px;
     padding-right:0px;
     padding-left:0px;
     align-items:center;
+    justify-content:flex-end;
 }
 
-.contact-item:not(:last-child){
-    margin-right:50px;
-}
-.contact:first-child{
-    margin-left:0;
-}
 
-.contact:last-child{
-    margin-right:0;
-
+.contact-mail{
+    padding-right:50px;
+    flex-basis:110px;
 }
 .header{
     background-color: var(--dark-background-color);
@@ -304,17 +316,15 @@ footer{
     color: var(--light-color);
 }
 
-footer>.logo{
+footer>.container>.logo{
     display:inline-block;
     margin-top:60px;
     margin-bottom:20px;
-    margin-left:215px;
 }
 
 .address{
     width:246px;
     height:81px;
-    padding-left:215px;
 }
 
 .address-item{
@@ -414,6 +424,10 @@ footer>.logo{
     padding-right:30px;
 }
 
+li figcaption{
+    padding: 20px 24px;
+    border:1px solid #EEEEEE;
+}
 .project-name{
     font-weight:700;
     font-size:18px;
