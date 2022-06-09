@@ -186,9 +186,6 @@ nav{
     display:flex;
     font-size:14px;
     letter-spacing: 0.03em;
-    flex-basis:1170px;
-    max-width:1170px;
-    min-width:1170px;
     justify-content: space-between;
 }
 
@@ -324,7 +321,6 @@ footer>.container>.logo{
 
 .address{
     width:246px;
-    height:81px;
 }
 
 .address-item{
