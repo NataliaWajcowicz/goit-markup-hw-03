@@ -211,11 +211,6 @@ nav{
     color:#757575;
 }
 
-.services{
-    width:1170px;
-}
-
-
 .services-title{
     font-weight:700;
     font-size:36px;
@@ -255,8 +250,6 @@ nav{
     display:flex;
     padding-top:50px;
     justify-content:space-between;
-    flex-basis:1170px;
-    max-width:1170px;
 }
 
 
@@ -349,7 +342,6 @@ footer>.container>.logo{
 }
 
 .filters{
-    flex-basis:1170px;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -360,13 +352,13 @@ footer>.container>.logo{
     margin-right: 8px;
     margin-left:0;
     margin-top:0;
-    margin-bottom:0;
-    padding-bottom:34px;
+    margin-bottom:56px;
 }
 
 .filters-item:last-child{
     margin-right:0;
 }
+
 .button{
  background-color:#F5F4FA;
  color:#212121;
@@ -377,6 +369,7 @@ footer>.container>.logo{
  cursor: pointer;
  width:121px;
  height:38px;
+ border:0;
 }
 
 .button:hover,
@@ -394,15 +387,15 @@ footer>.container>.logo{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
-    flex-basis:1170px;
     margin-left:0;
-    margin-top:-34px;
+    margin-top:0px;
 }
 
 .project-item{
     flex-basis:calc(100%/3-30px);
-    margin-top:34px;
+    margin-top:0px;
     margin-left:0px;
+    margin-bottom:30px;
 }
 
 .project-card{
@@ -412,12 +405,18 @@ footer>.container>.logo{
     max-width:370px;
 }
 
-.project-card:nth-child(3n+1),
-.project-card:nth-child(3n+2),
-.project-card:not(:nth-child(3n)) {
+.project-item:nth-child(3n+1),
+.project-item:nth-child(3n+2),
+.project-item:not(:nth-child(3n)) {
     margin-left: 0;
     margin-right: 0px;
     padding-right:30px;
+}
+
+.project-item:nth-child(7),
+.project-item:nth-child(8),
+.project-item:nth-child(9){
+    margin-bottom:0px;
 }
 
 li figcaption{
