@@ -211,6 +211,10 @@ nav{
     color:#757575;
 }
 
+.services{
+    padding-top:0px;
+}
+
 .services-title{
     font-weight:700;
     font-size:36px;
